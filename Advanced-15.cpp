@@ -11,7 +11,7 @@ void Read_Num(float &Num1 , float &Num2)
 	cin >> Num2 ;
 }
 
-float CalcluteRectangleArea(float &Num1 , float &Num2)
+float CalcluteRectangleArea(float Num1 , float Num2)
 {
 	return Num1 * Num2 ;
 }
@@ -27,7 +27,6 @@ int main()
 	
 	float Num1 , Num2;
 	Read_Num(Num1 , Num2) ;
-	CalcluteRectangleArea(Num1,  Num2) ;
 	PrintResult(CalcluteRectangleArea(Num1,  Num2) ) ;
 	
 	
